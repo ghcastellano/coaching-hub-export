@@ -1,0 +1,13 @@
+{
+    "extends": "./node_modules/@indeed/common-npm-scripts-plugin-ts-build/config/tsconfig.json",
+    "compilerOptions": {
+        "target": "es6",
+        "allowJs": true,
+        "declaration": false,
+        "jsx": "react-jsx",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "types": ["jest", "node"],
+        "outDir": "./dist"
+    }
+}
